@@ -1,0 +1,6 @@
+@RecordingOfProgressIS.API_HostAddress = http://localhost:5153
+
+GET {{RecordingOfProgressIS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
