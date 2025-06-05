@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordingOfProgressIS.Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordingOfProgressIS.API", "RecordingOfProgressIS.API\RecordingOfProgressIS.API.csproj", "{FEB004D1-E79B-4651-919F-8E02AB217A63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordingOfProgressIS.Application", "RecordingOfProgressIS.Application\RecordingOfProgressIS.Application.csproj", "{EE31FDB3-E5CB-4EA3-A3B5-D8DCBD26B676}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordingOfProgressIS.ApplicationContract", "RecordingOfProgressIS.ApplicationContract\RecordingOfProgressIS.ApplicationContract.csproj", "{38A0DF01-7408-4ABE-B93B-0CBA5BBC5C32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{FEB004D1-E79B-4651-919F-8E02AB217A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEB004D1-E79B-4651-919F-8E02AB217A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEB004D1-E79B-4651-919F-8E02AB217A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE31FDB3-E5CB-4EA3-A3B5-D8DCBD26B676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE31FDB3-E5CB-4EA3-A3B5-D8DCBD26B676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE31FDB3-E5CB-4EA3-A3B5-D8DCBD26B676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE31FDB3-E5CB-4EA3-A3B5-D8DCBD26B676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A0DF01-7408-4ABE-B93B-0CBA5BBC5C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A0DF01-7408-4ABE-B93B-0CBA5BBC5C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A0DF01-7408-4ABE-B93B-0CBA5BBC5C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A0DF01-7408-4ABE-B93B-0CBA5BBC5C32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

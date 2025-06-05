@@ -1,3 +1,8 @@
+using RecordingOfProgressIS.Application;
+using RecordingOfProgressIS.Domain.Models;
+using RecordingOfProgressIS.Infrastructure.Repositories.Implementations;
+using RecordingOfProgressIS.Infrastructure.Repositories.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
@@ -7,6 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAuthorization();
 builder.Services.AddAuthentication();
+builder.Services.AddApplicationService();
+
 
 var app = builder.Build();
 
