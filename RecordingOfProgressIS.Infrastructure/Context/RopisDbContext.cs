@@ -2,7 +2,7 @@
 using RecordingOfProgressIS.Domain.Models;
 using System.Reflection;
 
-namespace RecordingOfProgressIS.Infrastructure
+namespace RecordingOfProgressIS.Infrastructure.Context
 {
     public class RopisDbContext : DbContext
     {
