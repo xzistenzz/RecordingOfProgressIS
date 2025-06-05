@@ -16,7 +16,10 @@ namespace RecordingOfProgressIS.Infrastructure.Context
         public DbSet<User> Users { get; set; }
 
         public RopisDbContext(DbContextOptions<RopisDbContext> options) :
-            base(options) { }
+            base(options)
+        {
+            Database.EnsureCreated();
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) { }
 

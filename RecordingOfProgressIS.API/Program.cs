@@ -1,7 +1,6 @@
+using Microsoft.EntityFrameworkCore;
 using RecordingOfProgressIS.Application;
-using RecordingOfProgressIS.Domain.Models;
-using RecordingOfProgressIS.Infrastructure.Repositories.Implementations;
-using RecordingOfProgressIS.Infrastructure.Repositories.Interfaces;
+using RecordingOfProgressIS.Infrastructure.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -13,6 +12,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAuthorization();
 builder.Services.AddAuthentication();
 builder.Services.AddApplicationService();
+builder.Services.AddDbContext<RopisDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString(nameof(RopisDbContext))));
 
 
 var app = builder.Build();
